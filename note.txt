@@ -1,0 +1,19 @@
+//Pages
+
+    Login Pages
+        The user will enter a user name and password to login into the app
+
+    Create Account Pages    
+        If the user doesn't have a login, this spade wll be used to handle creating accounts
+
+    Dashboard page (profile or admin page)
+        Add blog item
+        edit blog item
+        See all of our blog item
+        delete blog items
+        Publish and unpublish blog item
+        Update users' username
+
+    Blog page(viewing the blogs)
+        this will be the page to see all the published blog items
+        Blog will be presented in a mirror fashion

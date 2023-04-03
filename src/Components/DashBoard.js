@@ -181,7 +181,7 @@ function DashBoard() {
                                     {
                                         blogItems.map((item, index) => {
                                             return (
-                                                <>
+                                                <div key={`published-${index}`}>
                                                     {item.Published ? <ListGroup.Item>
                                                         <Col>
                                                             {item.Title}
@@ -198,7 +198,7 @@ function DashBoard() {
                                                             </Button>
                                                         </Col>
                                                         </ListGroup.Item> : null}
-                                                </>
+                                                </div>
                                             );
                                         })
                                     }

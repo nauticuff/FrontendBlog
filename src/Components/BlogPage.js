@@ -56,12 +56,12 @@ const BlogPage = () => {
     ]);
 
   return (
-    <Container>
+    <Container className='mt-5'>
         <Row className='m-3'>
             <Col>
                 {blogItems.map((item, index) => {
                     return (
-                        <Row className='content-cont'>
+                        <Row key={`blog-item-${index}`} className='content-cont'>
                             <Col md={6} className={item.Id % 2 === 0 ? 'col1' : 'col2'}>
                                 <Row>
                                     <Col md={12} className="text-center"> {item.Title}</Col>

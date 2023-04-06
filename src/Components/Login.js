@@ -19,8 +19,7 @@ const Login = () => {
         let token = await login(userData);
         if(token.token != null){
             localStorage.setItem('Token', token.token);
-            
-            //GetLoggedInUserData(username);
+            await GetLoggedInUserData(username);
             navigate("/Dashboard");
         }
     }
